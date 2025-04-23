@@ -43,17 +43,13 @@ jobs:
             ruby-version: '3.4.2'
             bundler-cache: true
 
-        - name: "Install bundler"
-          run: |
-            gem install bundler
-
         - name: "Install gems"
           run: |
             cd CityKey-iOS && bundle install
 
         - name: "Fastline SwiftLint"
           run: |
-            cd CityKey-iOS && bundle exec fastlane lint
+            bundle exec fastlane lint
 
 
     unit-tests:
