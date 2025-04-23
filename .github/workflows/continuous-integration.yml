@@ -41,14 +41,19 @@ jobs:
           uses: ruby/setup-ruby@32110d4e311bd8996b2a82bf2a43b714ccc91777 # v1.221.0
           with:
             ruby-version: '3.4.2'
+            bundler-cache: true
+
+        - name: "Install bundler"
+          run: |
+            gem install bundler
 
         - name: "Install gems"
           run: |
-            bundle install
+            cd CityKey-iOS && bundle install
 
         - name: "Fastline SwiftLint"
           run: |
-            bundle exec fastlane lint
+            cd CityKey-iOS && bundle exec fastlane lint
 
 
     unit-tests:
