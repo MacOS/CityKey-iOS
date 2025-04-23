@@ -44,6 +44,8 @@ jobs:
         - name: "Fastline SwiftLint"
           run: |
             bundle exec fastlane lint
+          env:
+            FASTLANE_SKIP_UPDATE_CHECK: True
 
 
     unit-tests:
