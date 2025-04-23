@@ -42,17 +42,9 @@ jobs:
           with:
             ruby-version: '3.4.2'
 
-        - name: "Alter bundle environment variables"
-          run: |
-            export GEM_PATH='/Users/runner/work/CityKey-iOS/CityKey-iOS/gems:$GEM_PATH'
-            export GEM_HOME='/Users/runner/work/CityKey-iOS/CityKey-iOS/gems:$GEM_HOME'
-            echo $GEM_PATH
-            echo $GEM_HOME
-
         - name: "Fastline SwiftLint"
-          uses: maierj/fastlane-action@5a3b971aaa26776459bb26894d6c1a1a84a311a7 # v3.1.0
-          with:
-            lane: lint
+          run: |
+            bundle exec fastlane lint
 
 
     unit-tests:
