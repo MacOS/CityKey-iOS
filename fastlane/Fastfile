@@ -66,25 +66,25 @@ platform :ios do
         'APP_CENTER_IDENTIFIER_Dev' => "#{ENV['APP_CENTER_IDENTIFIER_Dev']}",
         'MOENGAGE_APP_GROUP_Dev' => "#{ENV['MOENGAGE_APP_GROUP_Dev']}",
         'MOENGAGE_IDENTIFIER_Dev' => "#{ENV['MOENGAGE_IDENTIFIER_Dev']}",
-        'ADJUST_IDENTIFIER_Dev' => "#{ENV['ADJUST_IDENTIFIER_Dev']}"
+        'ADJUST_IDENTIFIER_Dev' => "#{ENV['ADJUST_IDENTIFIER_Dev']}",
       #int
         'GOOGLE_MAPS_API_KEY_Int' => "#{ENV['GOOGLE_MAPS_API_KEY_Int']}",
         'APP_CENTER_IDENTIFIER_Int' => "#{ENV['APP_CENTER_IDENTIFIER_Int']}",
         'MOENGAGE_APP_GROUP_Int' => "#{ENV['MOENGAGE_APP_GROUP_Int']}",
         'MOENGAGE_IDENTIFIER_Int' => "#{ENV['MOENGAGE_IDENTIFIER_Int']}",
-        'ADJUST_IDENTIFIER_Int' => "#{ENV['ADJUST_IDENTIFIER_Int']}"
+        'ADJUST_IDENTIFIER_Int' => "#{ENV['ADJUST_IDENTIFIER_Int']}",
       #stable
         'GOOGLE_MAPS_API_KEY_Stable' => "#{ENV['GOOGLE_MAPS_API_KEY_Stable']}",
         'APP_CENTER_IDENTIFIER_Stable' => "#{ENV['APP_CENTER_IDENTIFIER_Stable']}",
         'MOENGAGE_APP_GROUP_Stable' => "#{ENV['MOENGAGE_APP_GROUP_Stable']}",
         'MOENGAGE_IDENTIFIER_Stable' => "#{ENV['MOENGAGE_IDENTIFIER_Stable']}",
-        'ADJUST_IDENTIFIER_Stable' => "#{ENV['ADJUST_IDENTIFIER_Stable']}"
+        'ADJUST_IDENTIFIER_Stable' => "#{ENV['ADJUST_IDENTIFIER_Stable']}",
       #stakeholder
         'GOOGLE_MAPS_API_KEY_Stakeholder' => "#{ENV['GOOGLE_MAPS_API_KEY_Stakeholder']}",
         'APP_CENTER_IDENTIFIER_Stakeholder' => "#{ENV['APP_CENTER_IDENTIFIER_Stakeholder']}",
         'MOENGAGE_APP_GROUP_Stakeholder' => "#{ENV['MOENGAGE_APP_GROUP_Stakeholder']}",
         'MOENGAGE_IDENTIFIER_Stakeholder' => "#{ENV['MOENGAGE_IDENTIFIER_Stakeholder']}",
-        'ADJUST_IDENTIFIER_Stakeholder' => "#{ENV['ADJUST_IDENTIFIER_Stakeholder']}"
+        'ADJUST_IDENTIFIER_Stakeholder' => "#{ENV['ADJUST_IDENTIFIER_Stakeholder']}",
        #Release
         'GOOGLE_MAPS_API_KEY_Release' => "#{ENV['GOOGLE_MAPS_API_KEY_Release']}",
         'APP_CENTER_IDENTIFIER_Release' => "#{ENV['APP_CENTER_IDENTIFIER_Release']}",
